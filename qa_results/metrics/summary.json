@@ -1,0 +1,540 @@
+{
+  "settings": {
+    "no_retrieval": {
+      "questions": 800,
+      "total_checks": 2888,
+      "passed_checks": 841,
+      "rule_score": 0.2912049861495845,
+      "full_answer_rate": 0.09375,
+      "avg_rules_per_question": 3.61
+    },
+    "semantic_k3": {
+      "questions": 800,
+      "total_checks": 2888,
+      "passed_checks": 1668,
+      "rule_score": 0.5775623268698061,
+      "full_answer_rate": 0.31875,
+      "avg_rules_per_question": 3.61
+    },
+    "semantic_k5": {
+      "questions": 800,
+      "total_checks": 2888,
+      "passed_checks": 1816,
+      "rule_score": 0.628808864265928,
+      "full_answer_rate": 0.35,
+      "avg_rules_per_question": 3.61
+    },
+    "semantic_k10": {
+      "questions": 800,
+      "total_checks": 2888,
+      "passed_checks": 1902,
+      "rule_score": 0.6585872576177285,
+      "full_answer_rate": 0.38375,
+      "avg_rules_per_question": 3.61
+    },
+    "graphrag": {
+      "questions": 800,
+      "total_checks": 2888,
+      "passed_checks": 2066,
+      "rule_score": 0.7153739612188366,
+      "full_answer_rate": 0.4625,
+      "avg_rules_per_question": 3.61
+    },
+    "pnk_kg_only": {
+      "questions": 800,
+      "total_checks": 2888,
+      "passed_checks": 2159,
+      "rule_score": 0.7475761772853186,
+      "full_answer_rate": 0.485,
+      "avg_rules_per_question": 3.61
+    },
+    "pnk_kg_source": {
+      "questions": 800,
+      "total_checks": 2888,
+      "passed_checks": 2364,
+      "rule_score": 0.8185595567867036,
+      "full_answer_rate": 0.60375,
+      "avg_rules_per_question": 3.61
+    }
+  },
+  "by_type": {
+    "single": {
+      "no_retrieval": {
+        "questions": 330,
+        "total_checks": 588,
+        "passed_checks": 155,
+        "rule_score": 0.26360544217687076,
+        "full_answer_rate": 0.15454545454545454,
+        "avg_rules_per_question": 1.7818181818181817
+      },
+      "semantic_k3": {
+        "questions": 330,
+        "total_checks": 588,
+        "passed_checks": 341,
+        "rule_score": 0.5799319727891157,
+        "full_answer_rate": 0.45454545454545453,
+        "avg_rules_per_question": 1.7818181818181817
+      },
+      "semantic_k5": {
+        "questions": 330,
+        "total_checks": 588,
+        "passed_checks": 364,
+        "rule_score": 0.6190476190476191,
+        "full_answer_rate": 0.47575757575757577,
+        "avg_rules_per_question": 1.7818181818181817
+      },
+      "semantic_k10": {
+        "questions": 330,
+        "total_checks": 588,
+        "passed_checks": 382,
+        "rule_score": 0.6496598639455783,
+        "full_answer_rate": 0.5181818181818182,
+        "avg_rules_per_question": 1.7818181818181817
+      },
+      "graphrag": {
+        "questions": 330,
+        "total_checks": 588,
+        "passed_checks": 419,
+        "rule_score": 0.7125850340136054,
+        "full_answer_rate": 0.6151515151515151,
+        "avg_rules_per_question": 1.7818181818181817
+      },
+      "pnk_kg_only": {
+        "questions": 330,
+        "total_checks": 588,
+        "passed_checks": 439,
+        "rule_score": 0.7465986394557823,
+        "full_answer_rate": 0.6545454545454545,
+        "avg_rules_per_question": 1.7818181818181817
+      },
+      "pnk_kg_source": {
+        "questions": 330,
+        "total_checks": 588,
+        "passed_checks": 479,
+        "rule_score": 0.814625850340136,
+        "full_answer_rate": 0.7363636363636363,
+        "avg_rules_per_question": 1.7818181818181817
+      }
+    },
+    "intra": {
+      "no_retrieval": {
+        "questions": 369,
+        "total_checks": 1777,
+        "passed_checks": 563,
+        "rule_score": 0.3168261114237479,
+        "full_answer_rate": 0.05420054200542006,
+        "avg_rules_per_question": 4.815718157181572
+      },
+      "semantic_k3": {
+        "questions": 369,
+        "total_checks": 1777,
+        "passed_checks": 1107,
+        "rule_score": 0.6229600450196962,
+        "full_answer_rate": 0.2682926829268293,
+        "avg_rules_per_question": 4.815718157181572
+      },
+      "semantic_k5": {
+        "questions": 369,
+        "total_checks": 1777,
+        "passed_checks": 1183,
+        "rule_score": 0.6657287563308948,
+        "full_answer_rate": 0.2981029810298103,
+        "avg_rules_per_question": 4.815718157181572
+      },
+      "semantic_k10": {
+        "questions": 369,
+        "total_checks": 1777,
+        "passed_checks": 1232,
+        "rule_score": 0.6933033202025887,
+        "full_answer_rate": 0.3143631436314363,
+        "avg_rules_per_question": 4.815718157181572
+      },
+      "graphrag": {
+        "questions": 369,
+        "total_checks": 1777,
+        "passed_checks": 1310,
+        "rule_score": 0.7371975239167136,
+        "full_answer_rate": 0.3983739837398374,
+        "avg_rules_per_question": 4.815718157181572
+      },
+      "pnk_kg_only": {
+        "questions": 369,
+        "total_checks": 1777,
+        "passed_checks": 1325,
+        "rule_score": 0.7456387169386607,
+        "full_answer_rate": 0.38482384823848237,
+        "avg_rules_per_question": 4.815718157181572
+      },
+      "pnk_kg_source": {
+        "questions": 369,
+        "total_checks": 1777,
+        "passed_checks": 1491,
+        "rule_score": 0.839054586381542,
+        "full_answer_rate": 0.5663956639566395,
+        "avg_rules_per_question": 4.815718157181572
+      }
+    },
+    "multi": {
+      "no_retrieval": {
+        "questions": 101,
+        "total_checks": 523,
+        "passed_checks": 123,
+        "rule_score": 0.23518164435946462,
+        "full_answer_rate": 0.039603960396039604,
+        "avg_rules_per_question": 5.178217821782178
+      },
+      "semantic_k3": {
+        "questions": 101,
+        "total_checks": 523,
+        "passed_checks": 220,
+        "rule_score": 0.42065009560229444,
+        "full_answer_rate": 0.0594059405940594,
+        "avg_rules_per_question": 5.178217821782178
+      },
+      "semantic_k5": {
+        "questions": 101,
+        "total_checks": 523,
+        "passed_checks": 269,
+        "rule_score": 0.51434034416826,
+        "full_answer_rate": 0.12871287128712872,
+        "avg_rules_per_question": 5.178217821782178
+      },
+      "semantic_k10": {
+        "questions": 101,
+        "total_checks": 523,
+        "passed_checks": 288,
+        "rule_score": 0.5506692160611855,
+        "full_answer_rate": 0.19801980198019803,
+        "avg_rules_per_question": 5.178217821782178
+      },
+      "graphrag": {
+        "questions": 101,
+        "total_checks": 523,
+        "passed_checks": 337,
+        "rule_score": 0.6443594646271511,
+        "full_answer_rate": 0.19801980198019803,
+        "avg_rules_per_question": 5.178217821782178
+      },
+      "pnk_kg_only": {
+        "questions": 101,
+        "total_checks": 523,
+        "passed_checks": 395,
+        "rule_score": 0.7552581261950286,
+        "full_answer_rate": 0.297029702970297,
+        "avg_rules_per_question": 5.178217821782178
+      },
+      "pnk_kg_source": {
+        "questions": 101,
+        "total_checks": 523,
+        "passed_checks": 394,
+        "rule_score": 0.7533460803059273,
+        "full_answer_rate": 0.3069306930693069,
+        "avg_rules_per_question": 5.178217821782178
+      }
+    }
+  },
+  "by_topic": {
+    "ru_ua_west": {
+      "no_retrieval": {
+        "questions": 159,
+        "total_checks": 389,
+        "passed_checks": 117,
+        "rule_score": 0.30077120822622105,
+        "full_answer_rate": 0.14465408805031446,
+        "avg_rules_per_question": 2.4465408805031448
+      },
+      "semantic_k3": {
+        "questions": 159,
+        "total_checks": 389,
+        "passed_checks": 253,
+        "rule_score": 0.6503856041131105,
+        "full_answer_rate": 0.4716981132075472,
+        "avg_rules_per_question": 2.4465408805031448
+      },
+      "semantic_k5": {
+        "questions": 159,
+        "total_checks": 389,
+        "passed_checks": 275,
+        "rule_score": 0.7069408740359897,
+        "full_answer_rate": 0.5094339622641509,
+        "avg_rules_per_question": 2.4465408805031448
+      },
+      "semantic_k10": {
+        "questions": 159,
+        "total_checks": 389,
+        "passed_checks": 283,
+        "rule_score": 0.7275064267352185,
+        "full_answer_rate": 0.5283018867924528,
+        "avg_rules_per_question": 2.4465408805031448
+      },
+      "graphrag": {
+        "questions": 159,
+        "total_checks": 389,
+        "passed_checks": 298,
+        "rule_score": 0.7660668380462725,
+        "full_answer_rate": 0.6352201257861635,
+        "avg_rules_per_question": 2.4465408805031448
+      },
+      "pnk_kg_only": {
+        "questions": 159,
+        "total_checks": 389,
+        "passed_checks": 307,
+        "rule_score": 0.7892030848329049,
+        "full_answer_rate": 0.6352201257861635,
+        "avg_rules_per_question": 2.4465408805031448
+      },
+      "pnk_kg_source": {
+        "questions": 159,
+        "total_checks": 389,
+        "passed_checks": 332,
+        "rule_score": 0.8534704370179949,
+        "full_answer_rate": 0.710691823899371,
+        "avg_rules_per_question": 2.4465408805031448
+      }
+    },
+    "crocus_terror": {
+      "no_retrieval": {
+        "questions": 159,
+        "total_checks": 507,
+        "passed_checks": 75,
+        "rule_score": 0.14792899408284024,
+        "full_answer_rate": 0.03773584905660377,
+        "avg_rules_per_question": 3.188679245283019
+      },
+      "semantic_k3": {
+        "questions": 159,
+        "total_checks": 507,
+        "passed_checks": 194,
+        "rule_score": 0.3826429980276134,
+        "full_answer_rate": 0.2138364779874214,
+        "avg_rules_per_question": 3.188679245283019
+      },
+      "semantic_k5": {
+        "questions": 159,
+        "total_checks": 507,
+        "passed_checks": 224,
+        "rule_score": 0.4418145956607495,
+        "full_answer_rate": 0.2389937106918239,
+        "avg_rules_per_question": 3.188679245283019
+      },
+      "semantic_k10": {
+        "questions": 159,
+        "total_checks": 507,
+        "passed_checks": 234,
+        "rule_score": 0.46153846153846156,
+        "full_answer_rate": 0.24528301886792453,
+        "avg_rules_per_question": 3.188679245283019
+      },
+      "graphrag": {
+        "questions": 159,
+        "total_checks": 507,
+        "passed_checks": 261,
+        "rule_score": 0.514792899408284,
+        "full_answer_rate": 0.3018867924528302,
+        "avg_rules_per_question": 3.188679245283019
+      },
+      "pnk_kg_only": {
+        "questions": 159,
+        "total_checks": 507,
+        "passed_checks": 304,
+        "rule_score": 0.5996055226824457,
+        "full_answer_rate": 0.3584905660377358,
+        "avg_rules_per_question": 3.188679245283019
+      },
+      "pnk_kg_source": {
+        "questions": 159,
+        "total_checks": 507,
+        "passed_checks": 335,
+        "rule_score": 0.6607495069033531,
+        "full_answer_rate": 0.4276729559748428,
+        "avg_rules_per_question": 3.188679245283019
+      }
+    },
+    "baltimore_bridge": {
+      "no_retrieval": {
+        "questions": 160,
+        "total_checks": 478,
+        "passed_checks": 99,
+        "rule_score": 0.20711297071129708,
+        "full_answer_rate": 0.08125,
+        "avg_rules_per_question": 2.9875
+      },
+      "semantic_k3": {
+        "questions": 160,
+        "total_checks": 478,
+        "passed_checks": 271,
+        "rule_score": 0.5669456066945606,
+        "full_answer_rate": 0.35625,
+        "avg_rules_per_question": 2.9875
+      },
+      "semantic_k5": {
+        "questions": 160,
+        "total_checks": 478,
+        "passed_checks": 295,
+        "rule_score": 0.6171548117154811,
+        "full_answer_rate": 0.3875,
+        "avg_rules_per_question": 2.9875
+      },
+      "semantic_k10": {
+        "questions": 160,
+        "total_checks": 478,
+        "passed_checks": 323,
+        "rule_score": 0.6757322175732218,
+        "full_answer_rate": 0.4375,
+        "avg_rules_per_question": 2.9875
+      },
+      "graphrag": {
+        "questions": 160,
+        "total_checks": 478,
+        "passed_checks": 334,
+        "rule_score": 0.698744769874477,
+        "full_answer_rate": 0.46875,
+        "avg_rules_per_question": 2.9875
+      },
+      "pnk_kg_only": {
+        "questions": 160,
+        "total_checks": 478,
+        "passed_checks": 339,
+        "rule_score": 0.7092050209205021,
+        "full_answer_rate": 0.5125,
+        "avg_rules_per_question": 2.9875
+      },
+      "pnk_kg_source": {
+        "questions": 160,
+        "total_checks": 478,
+        "passed_checks": 383,
+        "rule_score": 0.801255230125523,
+        "full_answer_rate": 0.65625,
+        "avg_rules_per_question": 2.9875
+      }
+    },
+    "iran_israel": {
+      "no_retrieval": {
+        "questions": 158,
+        "total_checks": 680,
+        "passed_checks": 243,
+        "rule_score": 0.3573529411764706,
+        "full_answer_rate": 0.14556962025316456,
+        "avg_rules_per_question": 4.30379746835443
+      },
+      "semantic_k3": {
+        "questions": 158,
+        "total_checks": 680,
+        "passed_checks": 450,
+        "rule_score": 0.6617647058823529,
+        "full_answer_rate": 0.310126582278481,
+        "avg_rules_per_question": 4.30379746835443
+      },
+      "semantic_k5": {
+        "questions": 158,
+        "total_checks": 680,
+        "passed_checks": 480,
+        "rule_score": 0.7058823529411765,
+        "full_answer_rate": 0.35443037974683544,
+        "avg_rules_per_question": 4.30379746835443
+      },
+      "semantic_k10": {
+        "questions": 158,
+        "total_checks": 680,
+        "passed_checks": 498,
+        "rule_score": 0.7323529411764705,
+        "full_answer_rate": 0.3860759493670886,
+        "avg_rules_per_question": 4.30379746835443
+      },
+      "graphrag": {
+        "questions": 158,
+        "total_checks": 680,
+        "passed_checks": 532,
+        "rule_score": 0.7823529411764706,
+        "full_answer_rate": 0.5189873417721519,
+        "avg_rules_per_question": 4.30379746835443
+      },
+      "pnk_kg_only": {
+        "questions": 158,
+        "total_checks": 680,
+        "passed_checks": 559,
+        "rule_score": 0.8220588235294117,
+        "full_answer_rate": 0.569620253164557,
+        "avg_rules_per_question": 4.30379746835443
+      },
+      "pnk_kg_source": {
+        "questions": 158,
+        "total_checks": 680,
+        "passed_checks": 622,
+        "rule_score": 0.9147058823529411,
+        "full_answer_rate": 0.7531645569620253,
+        "avg_rules_per_question": 4.30379746835443
+      }
+    },
+    "gaza_conflict": {
+      "no_retrieval": {
+        "questions": 164,
+        "total_checks": 834,
+        "passed_checks": 307,
+        "rule_score": 0.36810551558752996,
+        "full_answer_rate": 0.06097560975609756,
+        "avg_rules_per_question": 5.085365853658536
+      },
+      "semantic_k3": {
+        "questions": 164,
+        "total_checks": 834,
+        "passed_checks": 500,
+        "rule_score": 0.5995203836930456,
+        "full_answer_rate": 0.24390243902439024,
+        "avg_rules_per_question": 5.085365853658536
+      },
+      "semantic_k5": {
+        "questions": 164,
+        "total_checks": 834,
+        "passed_checks": 542,
+        "rule_score": 0.6498800959232613,
+        "full_answer_rate": 0.2621951219512195,
+        "avg_rules_per_question": 5.085365853658536
+      },
+      "semantic_k10": {
+        "questions": 164,
+        "total_checks": 834,
+        "passed_checks": 564,
+        "rule_score": 0.6762589928057554,
+        "full_answer_rate": 0.3231707317073171,
+        "avg_rules_per_question": 5.085365853658536
+      },
+      "graphrag": {
+        "questions": 164,
+        "total_checks": 834,
+        "passed_checks": 641,
+        "rule_score": 0.7685851318944844,
+        "full_answer_rate": 0.3902439024390244,
+        "avg_rules_per_question": 5.085365853658536
+      },
+      "pnk_kg_only": {
+        "questions": 164,
+        "total_checks": 834,
+        "passed_checks": 650,
+        "rule_score": 0.7793764988009593,
+        "full_answer_rate": 0.35365853658536583,
+        "avg_rules_per_question": 5.085365853658536
+      },
+      "pnk_kg_source": {
+        "questions": 164,
+        "total_checks": 834,
+        "passed_checks": 692,
+        "rule_score": 0.829736211031175,
+        "full_answer_rate": 0.47560975609756095,
+        "avg_rules_per_question": 5.085365853658536
+      }
+    }
+  },
+  "qa_type_counts": {
+    "single": 2310,
+    "intra": 2583,
+    "multi": 707
+  },
+  "topic_counts": {
+    "ru_ua_west": 1113,
+    "crocus_terror": 1113,
+    "baltimore_bridge": 1120,
+    "iran_israel": 1106,
+    "gaza_conflict": 1148
+  }
+}

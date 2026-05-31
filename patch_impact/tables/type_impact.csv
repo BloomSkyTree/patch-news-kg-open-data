@@ -1,0 +1,5 @@
+﻿operation_group,population,sampled_ops,direct_impacted_patches_mean,direct_impacted_ops_mean,direct_max_depth_days_max,propagated_impacted_patches_mean,propagated_impacted_ops_mean,propagated_max_depth_days_max
+节点创建,2584,200,1.215,3.49,14,5.22,892.71,14
+关系创建,2211,200,1.52,8.135,12,5.615,1023.915,14
+属性修改,20,20,1.25,8.4,6,8.2,1653.55,14
+核心对象相关操作,2881,200,5.165,41.565,14,7.52,1552.885,14
